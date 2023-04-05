@@ -29,6 +29,7 @@ export default defineConfig(async () => ({
     sourcemap: !!process.env.TAURI_DEBUG,
   },
   test: {
+    environment: 'happy-dom',
     include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}']
   }
 }));
