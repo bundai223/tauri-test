@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "tauri": "tauri"
+    "tauri": "tauri",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@asseinfo/react-kanban": "^2.2.0",
@@ -21,7 +23,9 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^3.0.0",
+    "@vitest/coverage-c8": "^0.29.8",
     "typescript": "^4.6.4",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "vitest": "^0.29.8"
   }
 }
