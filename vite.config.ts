@@ -30,6 +30,7 @@ export default defineConfig(async () => ({
   },
   test: {
     environment: 'happy-dom',
-    include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}']
+    include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
+    setupFiles: ["src/specs/register-matchers"] 
   }
 }));

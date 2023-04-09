@@ -12,7 +12,6 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@asseinfo/react-kanban": "^2.2.0",
     "@tauri-apps/api": "^1.2.0",
     "happy-dom": "^9.1.7",
     "react": "^18.2.0",
